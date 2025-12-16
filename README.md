@@ -8,6 +8,24 @@ This is a module for [ModelMapper](http://modelmapper.org) to support Java 8 fea
 
 ## Java 8 Date/Time
 
+### Dependency
+
+Gradle
+
+```groovy
+implementation('org.modelmapper:modelmapper-module-jsr310:1.2.3')
+```
+
+Maven
+
+```xml
+<dependency>
+    <groupId>org.modelmapper</groupId>
+    <artifactId>modelmapper-module-jsr310</artifactId>
+    <version>1.2.3</version>
+</dependency>
+```
+
 ### Registers the module
 
 ```java
